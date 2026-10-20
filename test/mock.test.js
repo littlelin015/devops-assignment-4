@@ -2,7 +2,7 @@
 const assert = require("node:assert/strict");
 
 // Test 1: Basic arithmetic
-assert.strictEqual(1 + 1, 2);
+assert.strictEqual(1 + 1, 3);
 
 // Test 2: String comparison
 assert.strictEqual("DevOps".toLowerCase(), "devops");

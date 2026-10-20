@@ -57,7 +57,7 @@ jobs:
           name: build-artifact
 
       - name: Extract build artifact
-        run: unzip build.zip
+        run: unzip -o build.zip
 
       - name: Run automated tests
         run: |
